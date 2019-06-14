@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        @if(!empty($winners))
+        @if($winners->count() > 0)
             <div class="col-12">
                 <h2>Winner Result</h2>
                 <table class="table">
@@ -25,6 +25,8 @@
                     </tbody>
                 </table>
             </div>
+        @else
+            <h2>Coming Soon..</h2>
         @endif
     </div>
 </div>
