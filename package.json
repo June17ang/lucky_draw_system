@@ -22,7 +22,7 @@
         "sass": "^1.24.2",
         "sass-loader": "^7.3.1",
         "serialize-javascript": ">=2.1.1",
-        "set-value": ">=2.0.1",
+        "set-value": "^3.0.1",
         "vue": "^2.6.11",
         "vue-template-compiler": "^2.6.11"
     },
